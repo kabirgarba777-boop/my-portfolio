@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabir Garba | IT & UX Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">KABIR GARBA</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="https://www.linkedin.com/in/kabir-garba-7a4513227/" target="_blank" class="nav-cta">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+   <header class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Kabir Garba" class="hero-pic">
+            <h1>IT Graduate & Digital Specialist</h1>
+            <p>UX/UI Design | Data Analytics | Technical Solutions</p>
+            <div class="hero-btns">
+                <a href="#projects" class="main-btn">View My Work</a>
+                <a href="mailto:Kabirgerba777@gmail.com" class="secondary-btn">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="content-section">
+        <div class="container">
+            <h2 class="section-title">— Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Finance & Accounting Assistant (NYSC)</h4>
+                    <p>Niger Delta Power Holding Company (NDPHC) | 2025 </p>
+                    <small>Maintained complex databases using Excel, ensuring 100% data integrity and speeding up audit retrieval by 20%.</small>
+                </div>
+                <div class="timeline-item">
+                    <h4>Digital Forensic Assistant</h4>
+                    <p>WeCheck Limited | 2024 </p>
+                    <small>Analyzed digital evidence and drafted technical security reports for senior stakeholders.</small>
+                </div>
+                <div class="timeline-item">
+                    <h4>Technical Support Engineer</h4>
+                    <p>Sure4u NGO | 2021 </p>
+                    <small>Managed hardware optimization and executed critical system migrations to improve efficiency.</small>
+                </div>
+                <div class="timeline-item">
+                    <h4>Technical Support (Intern)</h4>
+                    <p>INEC | 2019 </p>
+                    <small>Configured operating systems and maintained critical office hardware to ensure continuous uptime.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section grey-bg">
+        <div class="container">
+            <h2 class="section-title">— Featured Project</h2>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Sajaab & Co (Sajaab Farms) </h3>
+                    <a href="https://sajaabandco.com" target="_blank" class="project-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <p class="project-desc">
+                    Engineered the official business website and designed the professional brand identity for an agricultural enterprise.
+                </p>
+                <div class="project-details">
+                    <div class="detail-box">
+                        <i class="fas fa-fingerprint"></i>
+                        <h4>UX/UI & Branding</h4>
+                        <p>Conceptualized the logo and visual elements for a consistent online presence.</p>
+                    </div>
+                    <div class="detail-box">
+                        <i class="fas fa-search"></i>
+                        <h4>Optimization</h4>
+                        <p>Implemented SEO strategies and ensured 100% mobile responsiveness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <footer id="contact">
+        <p>© 2026 Kabir Garba </p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/kabir-garba-7a4513227/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kabirgarba777-boop" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['UX Design', 'Data Analysis', 'IT Support', 'Web Dev'],
+                datasets: [{
+                    label: 'Skill Proficiency (%)',
+                    data: [95, 85, 90, 80],
+                    backgroundColor: '#28a745',
+                    borderRadius: 8
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false }
+        });
+    </script>
+</body>
+</html>
