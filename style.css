@@ -195,24 +195,24 @@ footer { padding: 60px; text-align: center; border-top: 1px solid #222; }
     opacity: 1;
     transform: translateX(0);
 }
-/* 1. Initial State: Hidden and shifted left */
+
 .timeline-item {
     opacity: 0;
     transform: translateX(-30px);
-    transition: all 0.8s ease-out; /* This creates the "smoothness" */
+    transition: all 0.8s ease-out; 
     margin-bottom: 30px;
     padding-left: 20px;
     border-left: 3px solid #333;
 }
 
-/* 2. Active State: Triggered by your JavaScript 'show' class */
+
 .timeline-item.show {
     opacity: 1;
     transform: translateX(0);
-    border-left: 3px solid #28a745; /* Turns green when visible */
+    border-left: 3px solid #28a745; 
 }
 
-/* 3. Calculator Styling (making it look like a tool) */
+
 .calculator {
     margin-top: 25px;
     padding: 20px;
@@ -242,7 +242,6 @@ body.light-mode {
     --card-bg: #ffffff;
 }
 
-/* Update your body and card styles to use these variables */
 body { background-color: var(--bg-color); color: var(--text-color); }
 .service-card, .project-card, .calculator { background: var(--card-bg); }
 
