@@ -256,3 +256,15 @@ body { background-color: var(--bg-color); color: var(--text-color); }
         padding: 0 20px;
     }
 }
+.about-text {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.about-text strong {
+    color: #28a745; 
+}
